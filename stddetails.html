@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>students details</title>
+<style>
+.not{
+border:none;
+}
+textarea{
+resize:none;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:center;">STUDENTS REGISTRATION FORM</h1>
+<table border="2" align="center" cellpadding="10">
+<tr>
+	<th>FIRST NAME</th>
+	<td><input type="text" name="n" placeholder="(max 30 characters)"  class="not"></td>
+</tr>
+<tr>
+	<th>LAST NAME</th>
+	<td><input type="text"name="m"placeholder="(max 30 characters)" maxlength="30" class="not"></td>
+</tr>
+<tr>
+	<th>DATE OF BIRTH</th>
+	<td><input type="date"name="dob" class="not"></td>
+</tr>
+<tr>
+	<th>EMAIL ID</th>
+	<td><input type="text"name="e" class="not"></td>
+</tr>
+<tr>
+	<th>MOBILE NUMBER</th>
+	<td><input type="text"name="mb"placeholder="(10 digit number)" maxlength="10" class="not"></td>
+</tr>
+<tr>
+	<th>GENDER</th>
+	<td><input type="radio"name="M">Male<input type="radio"name="M" class="not">Female</td>
+</tr>
+<tr>
+	<th>ADDRESS</th>
+	<td><textarea row="3" cols="60" class="not"></textarea></td>
+</tr>
+<tr>
+	<th>CITY</th>
+	<td><textarea placeholder="type your city" row="6" cols="150" class="not"></textarea></td>
+</tr>
+<tr>
+	<th>PINCODE</th>
+	<td><input type="text"value="(6 digit number)" class="not"></td>
+</tr>
+<tr>
+	<th>STATE</th>
+	<td></td>
+</tr>
+<tr>
+	<th>COUNTRY</th>
+	<td>India</td>
+</tr>
+<tr>
+	<th>HOBBIES</th>
+	<td><input type="checkbox"name="Drawing">Drawing<input type="checkbox"name="singing">Singing<input type="checkbox"name="dancing">Dancing<input type="checkbox"name="sketching">Sketching<input type="checkbox"name="others">Others</td>
+</tr>
+<tr>
+	<th>QUALIFICATION</th>
+	<td><table cellpadding="10">
+	<tr>
+		<th>Sl no:</th>
+		<th>Examination</th>
+		<th>Board</th>
+		<th>Percentage</th>
+		<th>Year of passing</th>
+	</tr
+	<tr>
+	<td>1</td>
+	<td>Class X</td>
+	<td><textarea  class="not"></textarea></td>
+	<td><textarea  class="not"></textarea></td>
+	<td><textarea  class="not"></textarea></td>
+	</tr>
+	<tr>
+	<td>2</td>
+	<td>Class XII</td>
+	<td><textarea  class="not"></textarea></td>
+	<td><textarea  class="not"></textarea></td>
+	<td><textarea  class="not"></textarea></td>
+	</tr>
+	<tr>
+	<td>3</td>
+	<td>Graduation</td>
+	<td><textarea  class="not"></textarea></td>
+	<td><textarea  class="not"></textarea></td>
+	<td><textarea  class="not"></textarea></td>
+	</tr>
+	<tr>
+	<td>4</td>
+	<td>Masters</td>
+	<td><textarea  class="not"></textarea></td>
+	<td><textarea class="not"></textarea></td>
+	<td><textarea  class="not"></textarea></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td></td>
+	<td>(max 10 character)</td>
+	<td>(upto 2 decimal)</td>
+	</tr>	
+	</table>
+	</td>
+</tr>
+<tr>
+<th>COURSES APPLIED FOR</th>
+<td><input type=radio name="a" value="MCA">MCA<input type=radio name="a" value="MTECH">MTECH<input type=radio name="a" value="MSC">MSC<input type=radio name="a" value="phD">phD</td>
+</tr>
+<tr>
+<th>TYPE YOUR PASSWORD</th>
+<td><input type="password" id="p" name="p"placeholder="(max 30 character)" class="not"></td>
+</tr>
+<tr>
+<th>UPLOAD YOUR FILE</th>
+<td><input type="file" value="upload file"></td>
+</tr>
+<tr>
+<th>DATE OF TC</th>
+<td><input type="date" class="not"></td>
+</tr>
+<tr align="center">
+<td colspan="2"><input type="submit" value="submit" ><input type="reset" value="reset">
+</td>
+</tr>
+</table>
+</body>
+</html>
